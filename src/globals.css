@@ -2,4 +2,60 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
+
+@font-face {
+  font-family: 'Clarity City';
+  src: url('/fonts/ClarityCity-Bold.otf');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Clarity City';
+  src: url('/fonts/ClarityCity-ExtraBold.otf');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Clarity City';
+  src: url('/fonts/ClarityCity-Medium.otf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Clarity City';
+  src: url('/fonts/ClarityCity-Regular.otf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Clarity City';
+  src: url('/fonts/ClarityCity-SemiBold.otf');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Clarity City';
+  src: url('/fonts/ClarityCity-Thin.otf');
+  font-style: normal;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

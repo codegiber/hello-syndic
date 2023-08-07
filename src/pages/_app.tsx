@@ -6,7 +6,7 @@ import { theme } from '../theme';
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <ThemeProvider theme={theme}>
-            <Component {...pageProps} />
+      <Component {...pageProps} />
     </ThemeProvider>
   );
 }

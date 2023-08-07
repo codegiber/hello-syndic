@@ -2,7 +2,6 @@ import { createTheme } from '@mui/material/styles';
 import { OverridesComponents } from './components';
 import { palette } from './constants';
 
-// Generate defualt MUI theme for breakpoints
 export const defaultTheme = createTheme();
 
 export const theme = createTheme({
@@ -16,7 +15,7 @@ export const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: '"Inter", sans-serif',
+    fontFamily: 'Clarity City, sans-serif',
     h1: {
       fontSize: '2.2rem',
       fontWeight: '600',
@@ -25,18 +24,14 @@ export const theme = createTheme({
       fontSize: '1.125rem',
       fontWeight: '600',
     },
-    //h2 and h3 are the same, only the weight varies
     h2: {
-      fontSize: '1rem',
+      fontSize: '1.5rem',
       fontWeight: '600',
     },
     h3: {
-      fontSize: '1rem',
-      fontWeight: '400',
+      fontSize: '1.3rem',
+      fontWeight: '600',
     },
-    //h2 and h3 are the same, only the weight varies
-
-    //h4, h5, h6 are the same, only the weight varies
     h4: {
       fontSize: '0.875rem',
       fontWeight: '400',
@@ -58,6 +53,9 @@ export const theme = createTheme({
       fontSize: '0.95rem',
       fontWeight: '600',
     },
+    body2: {
+      fontSize: '0.75rem'
+    }
   },
   components: OverridesComponents,
 });
