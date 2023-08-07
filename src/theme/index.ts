@@ -29,7 +29,7 @@ export const theme = createTheme({
       fontWeight: '600',
     },
     h3: {
-      fontSize: '1.3rem',
+      fontSize: '1rem',
       fontWeight: '600',
     },
     h4: {
