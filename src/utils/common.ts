@@ -27,7 +27,7 @@ const topMenuOptions = [
   },
 
   {
-    label: 'Mes inances',
+    label: 'Mes finances',
     icon: 'finance_icon',
     route: '/',
     position: 4,

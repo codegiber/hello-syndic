@@ -21,7 +21,7 @@ export const Login = () => {
         </Typography>
         <Box>
           <InputLabel
-            size="normal" sx={labelStyle}>Nom d’utilisateur:</InputLabel>
+            size="normal" sx={labelStyle}>Nom d’utilisateur</InputLabel>
           <OutlinedInput placeholder="John Doe" type="text" fullWidth />
         </Box>
         <Box marginTop="2.25rem">
